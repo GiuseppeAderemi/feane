@@ -128,6 +128,10 @@ img {
    color: var(--color-brand);
 }
 
+.but {
+   flex-wrap: wrap;
+}
+
 .but button {
    border-radius: 20px;
    color: var(--color-brand2);
