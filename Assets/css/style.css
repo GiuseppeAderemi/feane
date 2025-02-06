@@ -51,7 +51,7 @@ img {
    height: 100%;
    display: flex;
    flex-direction: column;
-   background-image: url(/Assets/images/hero-bg.jpg);
+   background-image: url('/Assets/images/hero-bg.jpg');
    background-position: center;
    background-size: cover;
 }
@@ -141,7 +141,7 @@ img {
       height: 70%;
       display: flex;
       flex-direction: column;
-      background-image: url(/Assets/images/hero-bg.jpg);
+      background-image: url('/Assets/images/hero-bg.jpg');
       background-position: center;
       background-size: cover;
    }
