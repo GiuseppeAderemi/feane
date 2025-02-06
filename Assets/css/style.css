@@ -51,7 +51,7 @@ img {
    height: 100%;
    display: flex;
    flex-direction: column;
-   background: url('/Assets/images/hero-bg.jpg');
+   background-image: url('/Assets/images/hero-bg.jpg');
    background-position: center;
    background-size: cover;
 }
@@ -128,6 +128,12 @@ img {
    color: var(--color-brand);
 }
 
+.but button {
+   border-radius: 20px;
+   color: var(--color-brand2);
+   padding: 10px 30px;
+}
+
 .but button:first-child {
    border-radius: 20px;
    background:  var(--color-brand2);
@@ -141,7 +147,7 @@ img {
       height: 70%;
       display: flex;
       flex-direction: column;
-      background: url('/Assets/images/hero-bg.jpg');
+      background-image: url('/Assets/images/hero-bg.jpg');
       background-position: center;
       background-size: cover;
    }
