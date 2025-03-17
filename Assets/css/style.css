@@ -6,15 +6,22 @@
     --color-base: rgb(255, 190, 51);
     --color-base2: #ffffff;
     --color-brand2: #222831;
-    --sidbar-width: 240px;
     --font-base: "Open Sans", sans-serif;
     --font-base2: "Dancing Script", cursive;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
 
 body{
     color: var(--color-body);
     font-family: var(--font-base);
+    box-sizing: border-box;
+    padding: 0;
 }
 
 
@@ -44,7 +51,6 @@ img {
 .bg-base {
    background-color: var(--color-brand2);
 }
-
 
 #home {
    min-height: 100vh;
@@ -145,6 +151,14 @@ img {
    padding: 10px 30px;
 }
 
+.carousel-buttons #prev,
+.carousel-buttons #next {
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   transition: all 0.3s ease;
+}
+
 @media (max-width: 992px) {
    #home {
       min-height: 80vh;
@@ -154,6 +168,12 @@ img {
       background-image: url('/Assets/images/hero-bg.jpg');
       background-position: center;
       background-size: cover;
+   }
+
+   .carousel-buttons #prev,
+   .carousel-buttons #next {
+      height: 40px;
+      width: 40px;
    }
 }
 
