@@ -27,7 +27,7 @@ body{
 
 h5 {
    font-family: "Dancing Script", cursive;
-   font-size: 60px;
+   font-size: 50px;
    margin: 0px;
 }
 
@@ -290,8 +290,4 @@ img {
 .social-icons a:hover {
    color: var(--color-base);
 }
-
-
-
-
 
