@@ -402,7 +402,7 @@
             <h5 class="fs-2 text-dark mb-5">What Says Our Customer</h5>
 
             <div id="carouselExample" class="carousel slide" data-bs-ride="false" data-bs-interval="false" data-bs-wrap="true"> 
-              <div class="carousel-inner">
+              <div class="carousel-inner d-none d-md-block">
                 <div class="carousel-item active">
                   <div class="row gx-2">
                     <div class="col-md-6 text-start justify-content-center align-items-center mb-5" data-aos="fade-up" data-aos-delay="300">
@@ -478,12 +478,62 @@
               </div>
             </div>
 
-            <div class="carousel-buttons d-flex gap-3 justify-content-center align-center">
+            <div id="carouselExampl" class="carousel slide" data-bs-ride="false" data-bs-interval="false" data-bs-wrap="true"> 
+              <div class="carousel-inner d-md-none">
+                <div class="carousel-item active">
+                  <div class="row gx-2">
+                    <div class="col-12 text-start justify-content-center align-items-center mb-5" data-aos="fade-up" data-aos-delay="300">
+                      <div class="card mb-3 p-1" style="max-height: 270px;">
+                        <div class="card-bod p-4">
+                          <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sunt harum nisi ipsa
+                            reprehenderit officia inventore accusantium, tempore voluptatibus?</p>
+                          <p class="card-text fs-5 m-0 py-0">Mike Hamell</p>
+                          <p class="card-text small m-0 py-0">Mike Hamell</p>
+                        </div>
+              
+                      </div>
+              
+                      <div class="mt-4" style="width: 140px;">
+                        <img class="rounded-circle p-2 bg-warning" src="./Assets/images/client1.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="carousel-item">
+                  <div class="row gx-2">
+                    <div class="col-12 text-start justify-content-center align-items-center mb-5" data-aos="fade-up" data-aos-delay="300">
+                      <div class="card mb-3 p-1" style="max-height: 270px;">
+                        <div class="card-bod p-4">
+                          <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sunt harum nisi ipsa
+                            reprehenderit officia inventore accusantium, tempore voluptatibus?</p>
+                          <p class="card-text fs-5 m-0 py-0">Mike Hamell</p>
+                          <p class="card-text small m-0 py-0">Mike Hamell</p>
+                        </div>
+              
+                      </div>
+              
+                      <div class="mt-4" style="width: 140px;">
+                        <img class="rounded-circle p-2 bg-warning" src="./Assets/images/client2.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-buttons d-flex gap-3 justify-content-center align-center d-none d-md-block">
               <button id="prev" class="border border-0 bg-warning rounded rounded-circle p-2 text-white" type="button" data-bs-target="#carouselExample"
               data-bs-slide="prev"><i class="bi bi-chevron-left"></i>
               </button>
               <button id="next" class="border border-0 bg-warning rounded rounded-circle p-2 text-white" type="button" data-bs-target="#carouselExample"
               data-bs-slide="next"><i class="bi bi-chevron-right"></i></button>
+            </div>
+
+            <div class="carousel-buttons d-flex gap-3 justify-content-center align-center d-md-none">
+              <button id="prev" class="border border-0 bg-warning rounded rounded-circle p-2 text-white" type="button" data-bs-target="#carouselExampl" data-bs-slide="prev"><i class="bi bi-chevron-left"></i>
+              </button>
+              <button id="next" class="border border-0 bg-warning rounded rounded-circle p-2 text-white" type="button" data-bs-target="#carouselExampl" data-bs-slide="next"><i class="bi bi-chevron-right"></i></button>
             </div>
             
           </div>
