@@ -35,6 +35,11 @@ h4 {
    font-family: "Dancing Script", cursive;
 }
 
+h3 {
+   font-size: 40px;
+   font-family: "Dancing Script", cursive;
+}
+
 
 a:hover {
    color: none;
